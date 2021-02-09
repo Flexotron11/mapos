@@ -331,7 +331,7 @@
                                             echo '<td>' . ($s->quantidade ?: 1) . '</td>';
                                             echo '<td>' . $preco . '</td>';
                                             echo '<td><span idAcao="' . $s->idServicos_os . '" title="Excluir Serviço" class="btn btn-danger servico"><i class="fas fa-trash-alt"></i></span></td>';
-                                            echo '<td>R$ ' . number_format($totalOS, 2, ',', '.') . '</td>';
+                                            echo '<td>R$ ' . number_format($subtotal, 2, ',', '.') . '</td>';
                                             echo '</tr>';
                                         } ?>
                                         <tr>
